@@ -7,16 +7,18 @@ public class bai4 {
         //Students[] s = new Students[n];
         for (int i=0; i<n ;i++){
             System.out.print("ENTER ID STUDENT: ");
+            String c=sc.nextLine();
             String id = sc.nextLine();
             System.out.print("ENTER FULNAME: ");
             String name = sc.nextLine();
             System.out.print("ENTER CLASSES: ");
             String classes = sc.nextLine();
             System.out.print("ENTER MEAL: ");
-            String meal = sc.nextLine();
+            int meal = sc.nextInt();
             Students s = new Students(id,name,classes,meal);
-            s.display();
         }
+
+
         sc.close();
     }
             
