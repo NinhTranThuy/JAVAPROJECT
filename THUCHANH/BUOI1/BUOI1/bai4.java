@@ -9,9 +9,9 @@ public class bai4 {
             System.out.print("ENTER ID STUDENT: ");
             String c=sc.nextLine();
             String id = sc.nextLine();
-            System.out.print("ENTER FULNAME: ");
+            System.out.print("ENTER FULLNAME: ");
             String name = sc.nextLine();
-            System.out.print("ENTER CLASSES: ");
+            System.out.print("ENTER CLASS: ");
             String classes = sc.nextLine();
             System.out.print("ENTER MEAL: ");
             int meal = sc.nextInt();
