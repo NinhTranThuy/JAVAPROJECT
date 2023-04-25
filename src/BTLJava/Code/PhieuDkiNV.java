@@ -1,12 +1,15 @@
-import java.io.Serializable;
 import java.util.Scanner;
 
 public class PhieuDkiNV implements Serializable{
     private String maPhieu;
-    ThiSinh ts = new ThiSinh();
-    CanBoTuyenSinh cb = new CanBoTuyenSinh();
+    ThiSinh ts;
+    CanBoTuyenSinh cb;
+    DSNguyenVong dsnv;
     
     public PhieuDkiNV() {
+        ts = new ThiSinh();
+        cb = new CanBoTuyenSinh();
+        dsnv = new DSNguyenVong();
     }
     public String getMaPhieu() {
         return maPhieu;
@@ -26,7 +29,7 @@ public class PhieuDkiNV implements Serializable{
     public void setCb(CanBoTuyenSinh cb) {
         this.cb = cb;
     }
-    DSNguyenVong dsnv = new DSNguyenVong();
+
     public void nhap(){
         Scanner sc= new Scanner(System.in);
 		System.out.print("\nMA PHIEU: ");
@@ -94,4 +97,5 @@ public class PhieuDkiNV implements Serializable{
 		cb.xuat();
 		System.out.println("\n\t\t\t\t_________________________________\t\t\t");
 	}
+
 }

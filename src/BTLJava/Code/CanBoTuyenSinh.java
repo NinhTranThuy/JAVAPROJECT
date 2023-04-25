@@ -1,8 +1,7 @@
-
 import java.io.Serializable;
 import java.util.Scanner;
 
-public class CanBoTuyenSinh extends Nguoi implements Serializable {
+public class CanBoTuyenSinh extends Nguoi  implements Serializable {
     private String maCB;
 	private String donviCT;
     public CanBoTuyenSinh() {
@@ -35,4 +34,3 @@ public class CanBoTuyenSinh extends Nguoi implements Serializable {
         System.out.printf("%10s",getDonviCT());
     }
 }
-

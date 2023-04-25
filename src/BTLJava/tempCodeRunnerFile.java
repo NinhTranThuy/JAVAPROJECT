@@ -1,0 +1,1 @@
+setKhoiThi(sc.nextLine());

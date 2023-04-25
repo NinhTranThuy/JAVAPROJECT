@@ -1,4 +1,3 @@
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -187,15 +186,5 @@ public class DSPhieuDkiNV {
 		}
 	}
     public void suaThongTin() {
-        ArrayList<PhieuDkiNV> listphieuts = new ArrayList<PhieuDkiNV>();
-        ThiSinh ts= new ThiSinh();
-		Scanner sc= new Scanner(System.in);
-		System.out.println("\nNhap ma phieu can sua:");
-		String maPhieu= sc.nextLine();
-		for(PhieuDkiNV phieu: dsPhieu) {
-			if(phieu.getMaPhieu().equals(maPhieu)==true) {    
-                listphieuts.add(phieu);
-			}
-		}
     }
 }
